@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-remove-working-env.html 
 keywords: remove working environment, delete working environment, remove system, delete system, remove google cloud netapp volumes, remove, delete 
-summary: 'È possibile rimuovere un abbonamento a Google Cloud NetApp Volumes per Google Cloud e tutti i volumi esistenti dalla console NetApp .  Questa azione rimuove Google Cloud NetApp Volumes dalla console NetApp .  Non elimina l"account o i volumi Google Cloud NetApp Volumes .  Puoi aggiungere nuovamente Google Cloud NetApp Volumes alla console NetApp in qualsiasi momento.' 
+summary: 'È possibile rimuovere un abbonamento a Google Cloud NetApp Volumes per Google Cloud e tutti i volumi esistenti dalla NetApp Console.  Questa azione rimuove Google Cloud NetApp Volumes dalla NetApp Console.  Non elimina l"account o i volumi Google Cloud NetApp Volumes .  Puoi aggiungere nuovamente Google Cloud NetApp Volumes alla NetApp Console in qualsiasi momento.' 
 ---
-= Rimuovere i Google Cloud NetApp Volumes dalla console NetApp
+= Rimuovere i Google Cloud NetApp Volumes dalla NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,10 +14,10 @@ summary: 'È possibile rimuovere un abbonamento a Google Cloud NetApp Volumes pe
 
 
 [role="lead"]
-È possibile rimuovere un abbonamento a Google Cloud NetApp Volumes e tutti i volumi esistenti dalla console NetApp .  I volumi non vengono eliminati, vengono rimossi da tutti i progetti all'interno della console NetApp e possono essere nuovamente rilevati in un secondo momento.
+È possibile rimuovere un abbonamento a Google Cloud NetApp Volumes e tutti i volumi esistenti dalla NetApp Console.  I volumi non vengono eliminati, vengono rimossi da tutti i progetti all'interno della NetApp Console e possono essere nuovamente rilevati in un secondo momento.
 
 
-TIP: Non è possibile eliminare Google Cloud NetApp Volumes dalla console NetApp .  Esegui questa azione utilizzando Google Cloud Console.
+TIP: Non è possibile eliminare Google Cloud NetApp Volumes dalla NetApp Console.  Esegui questa azione utilizzando Google Cloud Console.
 
 .Passi
 . Aprire il sistema.

@@ -34,7 +34,7 @@ NetApp Volumes aiuta ad accelerare i tempi di distribuzione, gestire i carichi d
 
 I volumi creati da Google Cloud NetApp Volumes vengono addebitati sull'abbonamento al servizio e non tramite NetApp Console.
 
-Non sono previsti costi per scoprire una regione o un volume Google Cloud NetApp Volumes dalla console NetApp .
+Non sono previsti costi per scoprire una regione o un volume Google Cloud NetApp Volumes dalla NetApp Console.
 
 
 
