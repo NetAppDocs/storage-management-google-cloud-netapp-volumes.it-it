@@ -1,0 +1,56 @@
+---
+sidebar: sidebar 
+permalink: task-create-working-env.html 
+keywords: google cloud netapp volumes, google cloud, netapp cloud volumes, create netapp cloud volumes, discover netapp cloud volumes service for gcnv, cloud volumes service subscription, discover cloud volumes service subscription, discover region, allowed clients, netapp console 
+summary: Aggiungi un sistema Netapp Volumes for Google Cloud nella console NetApp per visualizzare e gestire i volumi. 
+---
+= Aggiungi un sistema Google Cloud NetApp Volumes
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Dopo aver configurato un account di servizio, aggiungi un sistema Google Cloud NetApp Volumes nella console NetApp in modo da poter visualizzare le tue istanze Google Cloud NetApp Volumes .
+
+I volumi cloud per questo abbonamento vengono visualizzati nel sistema.
+
+
+NOTE: Se hai abbonamenti e volumi in più progetti Google Cloud, devi eseguire questa attività per ogni progetto.
+
+.Prima di iniziare
+Quando si aggiunge un abbonamento per ciascun progetto, è necessario disporre delle seguenti informazioni:
+
+* Credenziali dell'account di servizio (chiave privata JSON scaricata)
+* Nome del progetto
+
+
+.Passi
+. Dal menu NetApp Console, selezionare *Storage* e quindi *Gestione*.
+. Nella pagina Sistemi, seleziona *Aggiungi sistema* e seleziona *Google Cloud Platform*.
+. Accanto a * Google Cloud NetApp Volumes*, seleziona *Scopri*.
+. Fornisci informazioni sul tuo abbonamento a NetApp Volumes:
++
+.. Inserisci il nome del sistema che desideri utilizzare.
+.. Copia/incolla la chiave privata JSON scaricata nei passaggi precedenti.
+.. Seleziona *Applica credenziali*.
+.. Seleziona il nome del tuo progetto Google Cloud.
+.. Seleziona la regione in cui desideri creare il sistema.  La regione deve essere una delle regioni supportate per Google Cloud NetApp Volumes.
+.. Seleziona *Scopri*.
++
+image:screenshot_create_environment.png["Uno screenshot dell'aggiunta delle credenziali per un abbonamento a Google Cloud NetApp Volumes ."]
+
+
+
+
+
+.Risultato
+La Console visualizza il tuo sistema Google Cloud NetApp Volumes .
+
+image:screenshot_gcnv_environment.png["Uno screenshot del sistema Google Cloud NetApp Volumes Service."]
+
+.Cosa succederà ora?
+link:task-manage-volumes.html["Visualizza i tuoi volumi"] .
