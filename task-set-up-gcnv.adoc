@@ -16,18 +16,18 @@ summary: 'La NetApp Console necessita dell"accesso all"API Google Cloud NetApp V
 [role="lead"]
 La NetApp Console necessita delle autorizzazioni appropriate tramite un account di servizio Google Cloud.
 
-
-
-== Configurare un account di servizio
-
-Completa le seguenti attività affinché la NetApp Console possa accedere al tuo progetto Google Cloud:
+Completa le seguenti attività affinché la NetApp Console possa accedere al tuo progetto Google Cloud.
 
 * Se non disponi già di un account di servizio, creane uno nuovo.
 * Aggiungi il membro dell'account di servizio al tuo progetto e assegnagli ruoli specifici (autorizzazioni).
 * Crea e scarica una coppia di chiavi per l'account di servizio utilizzato per l'autenticazione su Google.
+* Concedi il ruolo IAM nel progetto condiviso.
 
 
-.Passi
+
+
+== Configurare un account di servizio
+
 . Nella console di Google Cloud, https://console.cloud.google.com/iam-admin/serviceaccounts["vai alla pagina Account di servizio"^] .
 . Fai clic su *Seleziona un progetto*, scegli il progetto e fai clic su *Apri*.
 . (Facoltativo) Per creare un account di servizio, procedere come segue:
@@ -40,7 +40,27 @@ Google Cloud Console genera un ID account di servizio basato su questo nome.  Se
 .. Per impostare subito i controlli di accesso, fare clic su *Crea* e poi su *FATTO* in fondo alla pagina, quindi procedere al passaggio successivo.
 
 
-. Dalla pagina _IAM_ clicca su *Aggiungi* e compila i campi nella pagina _Aggiungi membri_:
+
+
+
+
+== Crea e scarica una coppia di chiavi
+
+. Nel https://console.cloud.google.com/iam-admin/serviceaccounts["Pagina degli account di servizio"^] , trova e fai clic sul nome dell'account di servizio.
+. Dalla pagina _Dettagli account di servizio_, fare clic su *Aggiungi chiave* e quindi su *Crea nuova chiave*.
+. Selezionare *JSON* come tipo di chiave e fare clic su *Crea*.
++
+Facendo clic su *Crea* la nuova coppia di chiavi pubblica/privata verrà generata e scaricata sul tuo sistema.  Funge da unica copia della chiave privata.  Conserva questo file in modo sicuro perché può essere utilizzato per l'autenticazione come account di servizio.
+
+
+
+
+
+== Aggiungere il membro dell'account di servizio
+
+. Accedi al https://docs.netapp.com/us-en/console-setup-admin/task-logging-in.html["NetApp Console"] .
+. Selezionare *Amministrazione* e poi *Identità e accesso*.
+. Fare clic su *Aggiungi* e compilare i campi nella pagina _Aggiungi membri_:
 +
 .. Nel campo Nuovi membri, immettere l'ID completo dell'account di servizio.
 +
@@ -55,11 +75,19 @@ Ad esempio: \user1-service-account-gcnv@project1.iam.gserviceaccount.com
 .. Fare clic su *Salva*.
 
 
-. Fare clic sul nome dell'account di servizio, quindi nella pagina _Dettagli account di servizio_ fare clic su *Aggiungi chiave* e quindi su *Crea nuova chiave*.
-. Selezionare *JSON* come tipo di chiave e fare clic su *Crea*.
-+
-Facendo clic su *Crea* la nuova coppia di chiavi pubblica/privata verrà generata e scaricata sul tuo sistema.  Funge da unica copia della chiave privata.  Conserva questo file in modo sicuro perché può essere utilizzato per l'autenticazione come account di servizio.
 
+
+
+
+== VPC condivisa
+
+In ogni progetto GCP aggiuntivo che utilizzerà l'account di servizio, procedere come segue:
+
+. Nella pagina _IAM_, seleziona il progetto host VPC condiviso dal menu a discesa del progetto.
+. Fare clic su *Aggiungi principale*.
+. Nel campo Nuovi principali, inserisci l'indirizzo email del tuo account di servizio.
+. Dal menu a discesa Seleziona un ruolo, scegli il ruolo di amministratore Google Cloud NetApp Volumes .
+. Fare clic su *Salva*.
 
 
 Per i passaggi dettagliati, fare riferimento alla documentazione di Google Cloud:
