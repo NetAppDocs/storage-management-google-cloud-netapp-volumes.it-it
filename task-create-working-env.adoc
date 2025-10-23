@@ -40,9 +40,6 @@ Quando si aggiunge un abbonamento per ciascun progetto, è necessario disporre d
 .. Seleziona il nome del tuo progetto Google Cloud.
 .. Seleziona la regione in cui desideri creare il sistema.  La regione deve essere una delle regioni supportate per Google Cloud NetApp Volumes.
 .. Seleziona *Scopri*.
-+
-image:screenshot_create_environment.png["Uno screenshot dell'aggiunta delle credenziali per un abbonamento a Google Cloud NetApp Volumes ."]
-
 
 
 

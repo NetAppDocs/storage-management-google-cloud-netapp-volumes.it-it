@@ -19,7 +19,9 @@ Google Cloud NetApp Volumes è un servizio di archiviazione dati basato su cloud
 NetApp Volumes aiuta ad accelerare i tempi di distribuzione, gestire i carichi di lavoro e le applicazioni e migrare i carichi di lavoro sul cloud, mantenendo al contempo le prestazioni e le funzionalità dello storage on-premise.
 
 
-NOTE: Per iniziare a lavorare con Google Cloud NetApp Volumes, è necessario disporre delle autorizzazioni e dei ruoli appropriati.  I ruoli richiesti NetApp Console sono amministratore dell'organizzazione, amministratore di cartelle o progetti oppure amministratore Google Cloud NetApp Volumes . https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Scopri di più sui ruoli di accesso NetApp Console per tutti i servizi"^] .
+NOTE: Per iniziare a lavorare con Google Cloud NetApp Volumes, devi disporre delle autorizzazioni appropriate e del ruolo di amministratore Google Cloud NetApp Volumes o di visualizzatore di Google Cloud NetApp assegnato. https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Scopri di più sui ruoli di accesso NetApp Console per tutti i servizi"^].
+
++ image:role_gcnv.png["Uno screenshot del ruolo Google Cloud NetApp Volumes ."]
 
 
 
