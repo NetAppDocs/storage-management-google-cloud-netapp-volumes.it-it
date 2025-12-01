@@ -16,7 +16,7 @@ summary: Dopo aver configurato il sistema, puoi visualizzare i volumi Google Clo
 [role="lead"]
 Puoi visualizzare i volumi esistenti e tutte le azioni eseguite su di essi.
 
-*Ruolo obbligatorio NetApp Console * Ruolo di amministratore dell'organizzazione, amministratore di cartelle o progetti oppure amministratore Google Cloud NetApp Volumes . https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Scopri di più sui ruoli di accesso NetApp Console per tutti i servizi"^] .
+*Ruolo NetApp Console obbligatorio* Ruolo di amministratore Google Cloud NetApp Volumes o di visualizzatore Google Cloud NetApp Volumes . https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Scopri di più sui ruoli di accesso NetApp Console per tutti i servizi"^] .
 
 
 

@@ -24,15 +24,17 @@ sidebar:
       url: "/concept-gcnv.html"
     - title: Flusso di lavoro introduttivo
       url: "/task-quick-start.html"
-    - title: Configura Google Cloud
+    - title: Configurare Google Cloud NetApp Volumes
       url: "/task-set-up-gcnv.html"
+    - title: Assegnare i ruoli Google Cloud NetApp Volumes
+      url: "/task-add-roles.html"
     - title: Aggiungi un sistema
       url: "/task-create-working-env.html"
   - title: Utilizza Google Cloud NetApp Volumes
     entries:
     - title: Gestire i volumi
       url: "/task-manage-volumes.html"
-    - title: Rimuovere i Google Cloud NetApp Volumes
+    - title: Rimuovi volumi
       url: "/task-remove-working-env.html"
   - title: Conoscenza e supporto
     entries:

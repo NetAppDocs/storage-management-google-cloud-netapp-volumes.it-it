@@ -24,7 +24,7 @@ NOTE: Se hai abbonamenti e volumi in più progetti Google Cloud, devi eseguire q
 .Prima di iniziare
 Quando si aggiunge un abbonamento per ciascun progetto, è necessario disporre delle seguenti informazioni:
 
-* Credenziali dell'account di servizio (chiave privata JSON scaricata)
+* Indirizzo email dell'account di servizio Google
 * Nome del progetto
 
 
@@ -35,10 +35,10 @@ Quando si aggiunge un abbonamento per ciascun progetto, è necessario disporre d
 . Fornisci informazioni sul tuo abbonamento a NetApp Volumes:
 +
 .. Inserisci il nome del sistema che desideri utilizzare.
-.. Copia/incolla la chiave privata JSON scaricata nei passaggi precedenti.
-.. Seleziona *Applica credenziali*.
-.. Seleziona il nome del tuo progetto Google Cloud.
-.. Seleziona la regione in cui desideri creare il sistema.  La regione deve essere una delle regioni supportate per Google Cloud NetApp Volumes.
+.. Incolla l'indirizzo email dell'account di servizio Google associato: credentials-sa@wf-production-netapp.iam.gserviceaccount.com.
+.. Selezionare *Applica credenziali* per recuperare il nome del progetto e la regione.
+.. Da *Nome progetto*, seleziona il nome del tuo progetto Google Cloud.
+.. Da *Regione*, seleziona la regione in cui desideri creare il sistema. La regione deve essere una delle regioni supportate per Google Cloud NetApp Volumes.
 .. Seleziona *Scopri*.
 
 
