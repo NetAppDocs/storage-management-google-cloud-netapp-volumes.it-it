@@ -40,6 +40,9 @@ Google Cloud Console genera un ID account di servizio basato su questo nome.  Se
 .. Dall'elenco Ruolo, seleziona il ruolo *Amministratore Google Cloud NetApp Volumes * o *Visualizzatore Google Cloud NetApp *.
 .. Selezionare *Continua*.
 .. Concedi l'accesso di impersonificazione a questo account di servizio: credentials-sa@wf-production-netapp.iam.gserviceaccount.com. Per i dettagli, vedere https://cloud.google.com/iam/docs/create-short-lived-credentials-direct#sa-credentials-jwt["Crea un JSON Web Token (JWT) autofirmato"^] .
++
+L'account di servizio di proprietà di NetApp viene utilizzato per richiedere un token di accesso di breve durata che consente di agire come tale account di servizio senza dover accedere alla sua chiave privata.
+
 .. Fare clic su *FATTO* in fondo alla pagina e procedere al passaggio successivo.
 
 
