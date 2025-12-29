@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-remove-system.html 
-keywords: remove working environment, delete working environment, remove system, delete system, remove google cloud netapp volumes, remove, delete 
+keywords: remove working environment, delete working environment, remove system, delete system, remove google cloud netapp volumes, remove, delete, delete google cloud netapp volumes 
 summary: 'È possibile rimuovere un abbonamento a Google Cloud NetApp Volumes per Google Cloud e tutti i volumi esistenti dalla NetApp Console.  Questa azione rimuove Google Cloud NetApp Volumes dalla NetApp Console.  Non elimina l"account o i volumi Google Cloud NetApp Volumes .  Puoi aggiungere nuovamente Google Cloud NetApp Volumes alla NetApp Console in qualsiasi momento.' 
 ---
 = Rimuovere i Google Cloud NetApp Volumes dalla NetApp Console

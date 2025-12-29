@@ -6,7 +6,7 @@ indexpage:
     sensibili alla latenza in Google, senza dover effettuare il refactoring per il
     cloud.  Questa documentazione descrive come configurare e gestire Google Cloud
     NetApp Volumes tramite NetApp Console.
-  keywords: Google Cloud NetApp Volumes, BlueXP, NetApp Console
+  keywords: Google Cloud NetApp Volumes, BlueXP, NetApp Console, GCNV.
   lead: Google Cloud NetApp Volumes consente alle aziende di migrare ed eseguire le
     loro applicazioni core business-critical ad alta intensità di prestazioni e sensibili
     alla latenza in Google, senza dover effettuare il refactoring per il cloud.  Questa

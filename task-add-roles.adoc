@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-add-roles.html 
-keywords: setup, set up, add role, requirements, permissions, google cloud netapp volumes, gcnv, bluexp. netapp console 
+keywords: setup, set up, add role, requirements, permissions, google cloud netapp volumes, gcnv, bluexp. netapp console,assign 
 summary: La NetApp Console necessita che ai membri vengano assegnati i ruoli corretti. 
 ---
 = Assegnare i ruoli Google Cloud NetApp Volumes
