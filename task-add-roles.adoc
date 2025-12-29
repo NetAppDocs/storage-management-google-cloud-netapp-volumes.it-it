@@ -46,4 +46,4 @@ Se selezioni una cartella, il membro avrà le autorizzazioni per tutto ciò che 
 
 
 .Cosa succederà ora?
-link:task-create-working-env.html["Aggiungi un sistema Google Cloud NetApp Volumes"].
+link:task-create-system.html["Aggiungi un sistema Google Cloud NetApp Volumes"].
