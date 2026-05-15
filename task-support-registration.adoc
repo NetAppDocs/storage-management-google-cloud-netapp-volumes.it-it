@@ -89,7 +89,7 @@ Se sei un nuovo utente NetApp e non hai un account NSS, segui i passaggi indicat
 . Nell'angolo in alto a destra della Console, seleziona l'icona Aiuto e seleziona *Supporto*.
 . Individua il numero di serie del tuo ID account nella pagina di registrazione del supporto.
 +
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-serial-number.png["Uno screenshot del menu Aiuto in cui Supporto è la prima opzione elencata"]
+image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/screenshot-serial-number.png["Uno screenshot del menu Aiuto in cui Supporto è la prima opzione elencata"]
 
 . Vai a https://register.netapp.com["Sito di registrazione del supporto NetApp"^] e seleziona *Non sono un cliente NetApp registrato*.
 . Compila i campi obbligatori (quelli contrassegnati da asterischi rossi).
@@ -143,7 +143,7 @@ Queste credenziali NSS sono associate al tuo ID account Console specifico. Gli u
 .Passi
 . Nell'angolo in alto a destra della Console, seleziona l'icona Aiuto e seleziona *Supporto*.
 +
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-help-support.png["Uno screenshot del menu Aiuto in cui Supporto è la prima opzione elencata"]
+image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/screenshot-help-support.png["Uno screenshot del menu Aiuto in cui Supporto è la prima opzione elencata"]
 
 . Selezionare *Gestione NSS > Aggiungi account NSS*.
 . Quando richiesto, seleziona *Continua* per essere reindirizzato alla pagina di accesso di Microsoft.
@@ -168,9 +168,9 @@ Lo stesso vale se si dispone di account NSS preesistenti a livello di cliente e 
 
 ** Dopo aver effettuato l'accesso, NetApp memorizzerà il nome utente NSS.
 +
-Si tratta di un ID generato dal sistema che corrisponde al tuo indirizzo email. Nella pagina *Gestione NSS*, puoi visualizzare la tua email daimage:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-nss-menu.png["Un'icona di tre punti orizzontali"] menu.
+Si tratta di un ID generato dal sistema che corrisponde al tuo indirizzo email. Nella pagina *Gestione NSS*, puoi visualizzare il tuo indirizzo email dal image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/icon-nss-menu.png["Un'icona di tre punti orizzontali"] menu.
 
-** Se hai bisogno di aggiornare i token delle credenziali di accesso, è disponibile anche l'opzione *Aggiorna credenziali* inimage:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-nss-menu.png["Un'icona di tre punti orizzontali"] menu.
+** Se dovessi mai aver bisogno di aggiornare i token delle tue credenziali di accesso, c'è anche un'opzione *Aggiorna credenziali* nel menu image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/icon-nss-menu.png["Un'icona di tre punti orizzontali"].
 +
 Utilizzando questa opzione ti verrà richiesto di effettuare nuovamente l'accesso. Si noti che il token per questi account scade dopo 90 giorni. Verrà pubblicata una notifica per avvisarti di ciò.
 
