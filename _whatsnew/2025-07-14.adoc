@@ -4,6 +4,7 @@
 
 
 
+[[support-for-google-cloud-netapp-volumes-in-bluexp]]
 === Supporto per Google Cloud NetApp Volumes in BlueXP
 
 Ora puoi gestire Google Cloud NetApp Volumes direttamente da BlueXP:

@@ -4,6 +4,7 @@
 
 
 
+[[google-cloud-platform-credentials-changes]]
 === Modifiche alle credenziali di Google Cloud Platform
 
 Man mano che i clienti configurano e autorizzano più sistemi Google Cloud NetApp Volumes , il modo in cui vengono gestite le credenziali è cambiato.

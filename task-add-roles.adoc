@@ -18,6 +18,7 @@ Per iniziare a lavorare con Google Cloud NetApp Volumes , è necessario assegnar
 
 
 
+[[assign-roles-to-the-service-account-member]]
 == Assegnare ruoli al membro dell'account di servizio
 
 . Accedi al https://docs.netapp.com/us-en/console-setup-admin/task-logging-in.html["NetApp Console"^] .

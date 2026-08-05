@@ -20,6 +20,7 @@ Puoi visualizzare i volumi esistenti e tutte le azioni eseguite su di essi.
 
 
 
+[[view-a-volume]]
 == Visualizza un volume
 
 Visualizza i dettagli dei tuoi volumi, come nome, conteggio, regione, capacità, capacità utilizzata e pool di archiviazione.
@@ -32,6 +33,7 @@ Visualizza i dettagli dei tuoi volumi, come nome, conteggio, regione, capacità,
 
 
 
+[[view-the-audit-log]]
 == Visualizza il registro di controllo
 
 È possibile visualizzare tutte le azioni eseguite sui volumi nella sequenza temporale.
