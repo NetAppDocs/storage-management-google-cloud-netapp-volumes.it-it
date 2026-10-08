@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-quick-start.html 
 keywords: set up google cloud netapp volumes, quick start,system 
-summary: Per iniziare a utilizzare Google Cloud NetApp Volumes , configura Google Cloud e crea un sistema. 
+summary: Inizia a utilizzare Google Cloud NetApp Volumes assegnando i ruoli di NetApp Console, aggiungendo le credenziali e individuando un sistema. 
 ---
-= Flusso di lavoro introduttivo
+= Guida rapida a Google Cloud NetApp Volumes
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,16 +14,16 @@ summary: Per iniziare a utilizzare Google Cloud NetApp Volumes , configura Googl
 
 
 [role="lead"]
-Per iniziare a utilizzare Google Cloud NetApp Volumes, configura Google Cloud e crea un sistema.
+Inizia a usare Google Cloud NetApp Volumes assegnando il tuo ruolo di NetApp Console, aggiungendo le credenziali e individuando un sistema.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["Uno"] link:task-set-up-gcnv.html["Configurare Google Cloud NetApp Volumes"]
-[role="quick-margin-para"]
-Da Google, crea un account di servizio.
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Due"] link:task-add-roles.html["Assegnare i ruoli"]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["Uno"] link:task-add-roles.html["Assegnare i ruoli"]
 [role="quick-margin-para"]
 Dalla NetApp Console, assegnare i ruoli corretti ai membri.
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Due"] link:https://docs.netapp.com/us-en/data-services-workloads/gcnv/add-credentials.html["Aggiungi credenziali"]
+[role="quick-margin-para"]
+Nella NetApp Console, aggiungi le credenziali di Google Cloud NetApp Volumes.
+
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["Tre"] link:task-create-system.html["Aggiungi un sistema"]
 [role="quick-margin-para"]
-Dalla NetApp Console, fare clic su *Aggiungi sistema*, quindi su *Google Cloud Platform*, quindi su * Google Cloud NetApp Volumes* e infine su *Scopri*.  Fornisci i dettagli sull'account di servizio e sul progetto Google Cloud.
+Nella NetApp Console, individua un sistema utilizzando le credenziali, il progetto Google Cloud e la regione supportata.

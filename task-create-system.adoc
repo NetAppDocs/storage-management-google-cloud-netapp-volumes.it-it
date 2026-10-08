@@ -22,10 +22,10 @@ I volumi cloud per questo abbonamento vengono visualizzati nel sistema.
 NOTE: Se hai abbonamenti e volumi in più progetti Google Cloud, devi eseguire questa attività per ogni progetto.
 
 .Prima di iniziare
-Quando si aggiunge un abbonamento per ciascun progetto, è necessario disporre delle seguenti informazioni:
+Prima di aggiungere un sistema per ogni progetto, assicurati che:
 
-* Indirizzo email dell'account di servizio Google
-* Nome del progetto
+* L'account di servizio Google Cloud è configurato e le relative credenziali sono disponibili in NetApp Console. Per maggiori dettagli, consulta link:task-set-up-gcnv.html["Configurare Google Cloud NetApp Volumes"].
+* Hai il ruolo di amministratore o visualizzatore di Google Cloud NetApp Volumes nella NetApp Console. Per ulteriori dettagli, consulta link:task-add-roles.html["Assegnare i ruoli Google Cloud NetApp Volumes"].
 
 
 .Passi
@@ -35,10 +35,11 @@ Quando si aggiunge un abbonamento per ciascun progetto, è necessario disporre d
 . Fornisci informazioni sul tuo abbonamento a NetApp Volumes:
 +
 .. Inserisci il nome del sistema che desideri utilizzare.
-.. Incolla l'indirizzo email dell'account di servizio Google associato. Per i dettagli, vederelink:task-set-up-gcnv.html["Configurare un account di servizio"] .
-.. Selezionare *Applica credenziali* per recuperare il nome del progetto e la regione.
-.. Da *Nome progetto*, seleziona il nome del tuo progetto Google Cloud.
-.. Da *Regione*, seleziona la regione in cui desideri creare il sistema. La regione deve essere una delle regioni supportate per Google Cloud NetApp Volumes.
+.. In *Credenziali*, seleziona le credenziali di Google Cloud NetApp Volumes da usare.
++
+Se non sono elencate credenziali, aggiungi le credenziali di Google Cloud NetApp Volumes prima di continuare. La selezione del progetto e della regione non è disponibile finché non sono disponibili le credenziali.
+
+.. Nella sezione *Regione*, seleziona una regione supportata per Google Cloud NetApp Volumes.
 .. Seleziona *Scopri*.
 
 

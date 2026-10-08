@@ -18,11 +18,11 @@ Per iniziare a lavorare con Google Cloud NetApp Volumes , è necessario assegnar
 
 
 
-[[assign-roles-to-the-service-account-member]]
-== Assegnare ruoli al membro dell'account di servizio
+[[assign-roles-to-netapp-console-users]]
+== Assegna ruoli agli utenti di NetApp Console
 
 . Accedi al https://docs.netapp.com/us-en/console-setup-admin/task-logging-in.html["NetApp Console"^] .
-. Selezionare *Amministrazione* e poi *Identità e accesso*.
+. Seleziona *Amministrazione*, *Identità e accesso* e quindi *Membri*.
 . Seleziona il menu azioniimage:screenshot_gallery_options.gif["Un'icona con tre punti."] accanto al membro a cui vuoi assegnare un ruolo e seleziona *Aggiungi un ruolo*.
 . Per aggiungere un ruolo, completare i passaggi nella finestra di dialogo:
 +

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:  
 summary:  
 ---
-= Note legali
+= Note legali per Google Cloud NetApp Volumes
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
